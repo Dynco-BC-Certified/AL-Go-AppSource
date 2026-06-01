@@ -1,9 +1,15 @@
 {
     "folders":  [
-                    {
-                        "path":  ".AL-Go"
-                    }
-                ],
+        {
+            "path": ".AL-Go"
+        },
+        {
+            "path": "App"
+        },
+        {
+            "path": "Test"
+        }
+    ],
     "settings":  {
 
                  }
