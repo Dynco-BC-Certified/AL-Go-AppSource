@@ -1,0 +1,43 @@
+{
+  "id": APPID,
+  "name": NAME,
+  "publisher": "Dynamics Consult",
+  "version": "1.0.0.0",
+  "brief": BRIEF,
+  "description": DESCRIPTION,
+  "privacyStatement": "https://license.dynamicsconsult.com/Extension/{0}/"APPID"/section/5",
+  "EULA": "https://license.dynamicsconsult.com/Extension/{0}/"APPID"/section/4",
+  "help": "https://license.dynamicsconsult.com/Extension/{0}/"APPID"/section/1",
+  "url": "https://license.dynamicsconsult.com/Extension/{0}/"APPID"/section/1",
+  "logo": "./Logo/Logo.png",
+  "contextSensitiveHelpUrl": "https://license.dynamicsconsult.com/Extension/{0}/"APPID"/section/1",
+  "supportedLocales": [
+    ADDLOCALES ( it-IT )
+  ],
+  "dependencies": [
+    {
+      "name": "DCR - Dynamics Core",
+      "publisher": "Dynamics Consult",
+      "version": "0.3.0.0",
+      "id": "1671CFF7-F667-4091-9F1B-B419E496BF13"
+    }
+  ],
+  "platform": "28.0.0.0",
+  "application": "1.0.0.0",
+  "idRanges": [
+    {
+      "from": FIRST:72889575,
+      "to": LAST:72890574
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": false,
+    "allowDownloadingSource": false,
+    "applyToDevExtension": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "17.0",
+  "features": [
+    "TranslationFile"
+  ]
+}
